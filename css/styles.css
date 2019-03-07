@@ -1,0 +1,189 @@
+
+body {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.emphasise {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 1.7em;
+    line-height: 1.2;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.wave-section {
+  background-image: url("../images/beach.jpg");
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+
+.navbar {
+  padding: 0 0 10rem;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Buttons */
+
+.book-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 5% 15% 15%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  top: -30%;
+  right: 10%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #76BEFF;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #5F9DFF;
+  background-position: left bottom;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.card-header {
+  background-color: #005E8B;
+  color: white;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-position: right bottom;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1663px) {
+
+  .title-image {
+    top: -10%;
+  }
+
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  .title-image {
+    display: none;
+  }
+}
